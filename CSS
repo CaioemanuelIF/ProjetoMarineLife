@@ -1,0 +1,229 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+.nav {
+  display: flex;
+  /*Jogar os itens para o canto da página*/
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  /*Mudando a cor de fundo do menu*/
+  background-color: rgb(34, 81, 87);
+  /*Fonte do menu*/
+  font-family: 'Poppins', sans-serif;
+}
+
+.marca{
+  position: absolute;
+  /*Mudando a cor da fonte do nome*/
+  color: rgb(209, 209, 209);
+  /*Deixando o texto formatado*/
+  text-transform: uppercase;
+  /*Mudando o espaçamento das letras*/
+  letter-spacing: 5px;
+  /*Tamaho da letra*/
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#logo{
+ margin: 0px 0px 20px 350px;
+}
+.nav-links {
+  /*Ajustando o tamanho e posição dos itens*/
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+  margin: 0px 0px 0px 500px;
+}
+
+.nav-links li {
+  /*Sumindo com os pontos que ficavam nos itens*/
+  list-style: none;
+
+}
+
+.nav-links a {
+
+  /*Mudando a cor dos itens*/
+  color: white;
+  /*Mudando o espaçamento das letras dos itens*/
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/*Ajustando a altura*/
+@media screen and (max-width:1440px) {
+  .nav-links {
+    width: 80%;
+  }
+}
+
+/*Ajustando a altura minima*/
+@media screen and (max-width:320px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  /*ajustando os itens para se adequar a altura min.*/
+  .nav-links {
+    position: absolute;
+    right: 10px;
+    height: 92vh;
+    top: 8vh;
+  }
+}
+
+  .nav-links li {
+    opacity: 1;
+  }
+
+@media screen and (max-width: 768px) {
+.nav-links.nav-active li {
+  opacity: 1;
+  }
+}
+
+
+/*Ajustando a altura*/
+@media screen and (max-width:1440px) {
+  .marca {
+    width: 60%;
+  }
+}
+
+.video{
+  display: flex;
+  background-color: rgb(25, 82, 69);
+  background: linear-gradient(rgb(109, 243, 243), #15194b);
+  justify-content: center;
+}
+.texto-paginaP h2 {
+  position: relative;
+  font-family: 'poppins', sans-serif;
+  font-weight: bold;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+}
+.texto-paginaP {
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  font-weight: inherit;
+  font-size: 2em;
+  color: rgb(0, 0, 0);
+  padding: 40px 100px
+}
+.texto2-paginaP h2{
+  position: relative;
+  font-family: 'poppins', sans-serif;
+  font-weight: bold;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+}
+.texto2-paginaP{
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  font-weight: inherit;
+  font-size: 2em;
+  color: rgb(0, 0, 0);
+  padding: 40px 100px
+}
+
+/*Pagina de tabela*/
+
+#background{
+  background:linear-gradient(rgb(109, 243, 243), #15194b);
+}
+
+tbody{
+  width: 100%;
+}
+
+.tabela2 {
+  width: auto;
+}
+
+table{
+  margin: auto;
+}
+
+/*Pagina de contato*/
+
+#contato{
+  background-color: #252636;
+  color: white;
+}
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
