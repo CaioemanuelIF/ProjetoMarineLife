@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Vida Marinha</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" type="text/js" href="MenuJavascript.js"> 
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="PaginaP.css" media="screen" />
+    <link rel="stylesheet" type="text/html" href="pagina bio.html" media="screen" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="pagina bio.html"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="turtle.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="turtle.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="turtle.png">
+  </head>
+
+  <body>
+        <nav class="nav">
+                <div class="marca">
+                    <h4>Marine Life</h4>
+                    <h5>Ajudando a natureza</h5>
+                </div>
+            
+            
+            <div id="logo">
+                <img src="turtle.png" alt="imagem de tartaruga" height="100px"/>
+            </div>
+
+                <ul class="nav-links">
+                    <li><a href="paginaP.html">Home</a></li>
+                    <li><a href="Pagina de tabela.html">Tabela</a></li>
+                    <li><a href="pagina bio.html">Bio</a></li>
+                    <li><a href="Pagina de contato.html">Contato</a></li>
+                </ul>
+        </nav>
+      </header>
+            
+            <div class="video">
+                <video autoplay controls mutes height=560 widht=250>
+                <source src="turtlevid.mp4" type="video/mp4" />
+                </video>
+            </div>
+            <section class="texto" style="background-color: rgb(1, 178, 184);">
+                <div class="texto-paginaP">
+                    <h2>Oceanos</h2>
+
+                    <p>Presente em 71% da superfície da Terra, os oceanos são essenciais para o equilíbrio do clima, absorvendo as emissões de CO2 e ajudando a regular a temperatura do planeta. Sob as ondas vivem também milhões de espécies, muitas ainda desconhecidas da ciência, que se encontram ameaçadas de desaparecer completamente.<br>
+
+                        Apesar de toda a sua importância, estamos esvaziando os oceanos de vida e os preenchendo de plástico. A poluição, a sobrepesca e a acidificação das águas põem em risco a vida marinha e as populações que dependem dos mares saudáveis.<br>
+                        
+                        Mais áreas marinhas protegidas, maior regulamentação das atividades pesqueiras e petrolíferas, além de menos lixo nos mares são algumas das principais soluções que precisamos defender.</p>
+                </div>
+            </section>
+
+            <section class="texto2" style="background-color: rgb(0, 102, 150);">
+                    <div class="texto2-paginaP">
+                        <h2>O que os oceanos têm a ver com o clima?</h2>
+
+                        <p>O mar não está para peixe e essa é uma dura realidade dos tempos atuais. O ser humano produz lixo, pesca excessivamente, explora petróleo e ainda por cima descarta plástico nos oceanos. O que talvez algumas pessoas não saibam (ou simplesmente não querem ver) é que os mares são também responsáveis por equilibrar a temperatura da Terra e fundamentais para a continuidade da vida no planeta.<br>
+
+                            Entenda como tudo isso está conectado.<br>
+                            
+                            Fitoplâncton consumindo CO2<br>
+                            Os oceanos são surpreendentemente bons em tirar o dióxido de carbono (CO2) do ar e mantê-lo nas profundezas. Esse processo começa quando algas microscópicas e flutuantes (chamadas de fitoplâncton) sugam dióxido de carbono do ar durante seu crescimento.<br>
+                            
+                            O processo funciona assim: animais (os krills, por exemplo, seres minúsculos que se parecem com o camarão) comem o fitoplâncton. Daí, outros animais (como as baleias) comem os animais que comem o fitoplâncton, e esse carbono se move pela cadeia alimentar até que um animal morra e vá para as profundezas do oceano. </p>
+                    </div>
+            </section>
+  </body>
+        
+</html>
