@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" type="text/js" href="MenuJavascript.js"> 
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="PaginaP.css" media="screen" />
+    <link rel="apple-touch-icon" sizes="180x180" href="turtle.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="turtle.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="turtle.png">
+</head>
+<body>
+    <header>
+    <nav class="nav">
+        <div class="marca">
+            <h4>Marine Life</h4>
+            <h5>Ajudando a natureza</h5>
+        </div>
+    
+    
+    <div id="logo">
+        <img src="turtle.png" alt="imagem de tartaruga" height="100px"/>
+    </div>
+
+        <ul class="nav-links">
+            <li><a href="paginaP.html">Home</a></li>
+            <li><a href="Pagina de tabela.html">Tabela</a></li>
+            <li><a href="pagina bio.html">Bio</a></li>
+            <li><a href="Pagina de contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    </header>
+    <div id="contato">
+        <h1>Contato</h1>
+    </div>
+    <div class="container">
+        <form action="/action_page.php">
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">First Name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Last Name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="country">Country</label>
+          </div>
+          <div class="col-75">
+            <select id="country" name="country">
+              <option value="australia">America do Sul</option>
+              <option value="australia">Ammerica do Norte</option>
+              <option value="canada">Europa</option>
+              <option value="usa">Asia</option>
+              <option value="australia">Oceania</option>
+              <option value="australia">Africa</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">Subject</label>
+          </div>
+          <div class="col-75">
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" value="Submit">
+        </div>
+        </form>
+      </div>
+</body>
+</html>
