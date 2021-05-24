@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pagina de tabela</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="PaginaP.css" media="screen">
+    <link rel="stylesheet" href="paginaP.html"/>
+    <link rel="stylesheet" href="pagina bio.html"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="turtle.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="turtle.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="turtle.png">
+</head>
+<body>
+    <header>
+    <nav class="nav">
+        <div class="marca">
+            <h4>Marine Life</h4>
+            <h5>Ajudando a natureza</h5>
+        </div>
+    
+    
+    <div id="logo">
+        <img src="turtle.png" alt="imagem de tartaruga" height="100px"/>
+    </div>
+
+        <ul class="nav-links">
+            <li><a href="paginaP.html">Home</a></li>
+            <li><a href="Pagina de tabela.html">Tabela</a></li>
+            <li><a href="pagina bio.html">Bio</a></li>
+            <li><a href="Pagina de contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <main id="background">
+        <table>
+            <!--Tbody indica o corpo da tabela-->
+            <tbody class="tabela1">
+                <tr>
+                    <td><img src="Imagens animais/1.jpg" alt="tartaruga" width="300" height="199"></td>
+                    <td><img src="Imagens animais/2.jpg" alt="baleia" width="300" height="199"></td>
+                </tr>
+                <tr>
+                    <td><img src="Imagens animais/3.jpg" alt="golfinhos" width="300" height="250"></td>
+                    <td><img src="Imagens animais/4.jpg" alt="golfinhos" width="300" height="250"></td>
+                </tr>
+                <tr>
+                    <td><img src="Imagens animais/5.jpg" alt="golfinhos" width="300" height="250"></td>
+                    <td><img src="Imagens animais/6.jpg" alt="golfinhos" width="300" height="250"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table>
+            <!--Tbody indica o corpo da tabela-->
+            <tbody class="tabela2">
+                <tr>
+                    <td><img src="Imagens animais/7.jpg" alt="tartaruga" width="300" height="199"></td>
+                    <td><img src="Imagens animais/8.jpg" alt="baleia" width="300" height="199"></td>
+                </tr>
+                <tr>
+                    <td><img src="Imagens animais/9.jpg" alt="golfinhos" width="300" height="250"></td>
+                    <td><img src="Imagens animais/10.jpg" alt="golfinhos" width="300" height="250"></td>
+                </tr>
+                <tr>
+                    <td><img src="Imagens animais/11.jpg" alt="golfinhos" width="300" height="250"></td>
+                    <td><img src="Imagens animais/12.jpg" alt="golfinhos" width="300" height="250"></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
